@@ -24,7 +24,6 @@ markdown: kramdown
 
 nav_list:
   Home : ['Home', '/']
-  About : ['About', '/about']
   DailyLife : ['Daily Life', '/category/daily']
   Security : ['Security', '/category/security']
   Notes : ['Notes', '/category/notes']
