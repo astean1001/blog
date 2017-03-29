@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Lens Theme
-description: > # A blog about travel, adventure and stories from the road.
+title: Carp PLant
+description: 'Some writing about developments....'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 permalink: :title
@@ -25,9 +25,7 @@ markdown: kramdown
 nav_list:
   Home : ['Home', '/']
   About : ['About', '/about']
-  Michelle : ['Michelle', '/author/michelle']
-  Sarah : ['Sarah', '/author/sarah']
-  Tom : ['Tom', '/author/tom']
-  Travel : ['Travel', '/category/travel']
-  Inspiration : ['Inpiration', '/category/inspiration']
+  DailyLife : ['Daily Life', '/category/daily']
+  Security : ['Security', '/category/security']
+  Notes : ['Notes', '/category/notes']
   Contact : ['Contact', '/contact/']
