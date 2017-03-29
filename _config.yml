@@ -28,4 +28,3 @@ nav_list:
   DailyLife : ['Daily Life', '/category/daily']
   Security : ['Security', '/category/security']
   Notes : ['Notes', '/category/notes']
-  Contact : ['Contact', '/contact/']
