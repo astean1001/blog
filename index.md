@@ -1,6 +1,13 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Lens by HTML5 UP
 ---
+
+<!-- Thumbnail -->
+<section id="thumbnails">{% for photo in site.photos %}
+	<article>
+		<a class="thumbnail" href="{{ photo.image }}" data-position="left center"><img src="{{ photo.thumbnail }}" alt="" /></a>
+		<h2>{{ photo.title }}</h2>
+		<p>{{ photo.caption }}</p>
+	</article>
+{% endfor %}</section>
